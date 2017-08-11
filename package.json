@@ -1,0 +1,18 @@
+{
+  "name": "create-react-app-in-IE8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/YuriTu/create-react-app-in-IE8.git",
+  "author": "YuriTu",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "keypress": "^0.2.1"
+  },
+  "bin": {
+    "scion": "./bin/scion.js"
+  }
+}
