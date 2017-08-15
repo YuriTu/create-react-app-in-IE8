@@ -13,6 +13,6 @@
     "keypress": "^0.2.1"
   },
   "bin": {
-    "scion": "./bin/scion.js"
+    "create-react-app": "./bin/create"
   }
 }
