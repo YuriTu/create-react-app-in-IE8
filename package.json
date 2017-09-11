@@ -1,6 +1,6 @@
 {
-  "name": "create-react-app-in-IE8",
-  "version": "1.0.0",
+  "name": "create-react-app-in-ie8",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/YuriTu/create-react-app-in-IE8.git",
   "author": "YuriTu",
@@ -13,6 +13,6 @@
     "keypress": "^0.2.1"
   },
   "bin": {
-    "create-react-app": "./bin/create"
+    "createie": "./bin/create"
   }
 }
