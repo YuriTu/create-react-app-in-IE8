@@ -17,6 +17,11 @@ npm run dev
 
 ```
 
+使用 `npm run dev`来开启本地server `http://0.0.0.0:9001/dist/html/home.html`访问欢迎页
+
+使用 `npm run build`进行打包
+
+
 
 
 
