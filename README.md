@@ -7,7 +7,7 @@ Create React apps for IE8 with no build configuration.Doing well in Renn.
 ## 引导
 
 ```
-npm install -g create-react-app-in-IE8
+npm install -g create-react-app-in-ie8
 
 createie init
 
