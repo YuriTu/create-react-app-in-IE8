@@ -13,6 +13,8 @@ createie init
 
 cd your_project
 
+npm install
+
 npm run dev
 
 ```
