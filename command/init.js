@@ -9,11 +9,9 @@ const gitUrl = "https://github.com/MATRIX-RENN/templates-React-ES7.git";
 module.exports = () => {
     co(function* () {
         let projectName = yield prompt("Project name:[my-app]");
-        let branch = yield prompt("Git branch:[master]");
         projectName || (projectName = "my-app");
-        branch || (branch = "master");
 
-        const cmdStr = `git clone ${gitUrl} ${projectName}&& cd ${projectName} && git checkout ${branch}`;
+        const cmdStr = `git clone ${gitUrl} ${projectName}&& cd ${projectName}`;
 
         console.log(chalk.white(" \n Strart generating..."));
 
@@ -33,7 +31,7 @@ module.exports = () => {
                 
                 We suggest that you begin by typing:
                   cd ${projectName}
-                  npm run build
+                  npm run dev
                 
                 Enjoy yourself!`
             ));
